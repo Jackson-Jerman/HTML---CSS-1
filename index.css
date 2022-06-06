@@ -1,0 +1,46 @@
+.header {
+    padding: 15px;
+    text-align: center;
+    background: #C3BCC8;
+    color: white;
+    font-size: 15px;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 8px solid #313D5A;
+    background-color: #f1f1f1;
+    padding: 15px;
+  }
+  .tab button {
+    background-color: inherit;
+    float: center;
+    border: 3px solid #313D5A;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+  }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+    background: white;
+ }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.input{
+    color: white;
+    text-align: center;
+}
+
+
+  
